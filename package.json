@@ -1,14 +1,16 @@
 {
-  "name": "will-this-work",
-  "version": "0.0.1",
-  "main": "server.js",
+  "name": "does-this-work",
+  "version": "0.0.0",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "vue": "^3.2.16"
   },
-  "engines": {
-    "node": "12.x"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
   }
 }

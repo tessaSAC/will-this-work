@@ -1,3 +1,3 @@
 #!/bin/bash
 
-reflex -s -- sh -c "invalidate-devserver && npm start"
+reflex -s -- sh -c "npm run dev"
